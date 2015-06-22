@@ -1,0 +1,151 @@
+
+a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ede8e4;
+}
+
+a:hover {
+    color: #c0c0c0;
+    /*font-size: 1.1em;*/
+}
+
+
+img {
+    width: 100%;
+}
+
+body {
+
+
+    background-color: #ede8e4;
+    background-size: 100%;
+}
+
+.headerBar {
+    font-family: Verdana;
+    font-size: 20px;
+
+}
+
+.navBar {
+    display: block;
+    border: 2px solid white;
+    border-radius: 6px;
+    float: right;
+    margin-right: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+
+}
+
+#topHeader {
+    background-color: #825f40;
+    opacity: 0.9;
+    height: 103px;
+    width: 100%;
+    margin-left: -10px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+#mainTitle {
+    float: left;
+    font-size: 24px;
+    margin-left: 80px;
+    margin-top: -20px;
+    color: #ede8e4;
+
+}
+
+#mainTitle h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+#ballPic {
+    position: relative;
+    opacity: 0.3;
+    margin-left: -8px;
+    margin-right: -4px;
+    padding-right: -20px;
+
+}
+
+#divOne {
+    position: absolute;
+    background-color: black;
+    height: 450px;
+    width: 100%;
+    margin-left: -8px;
+    margin-top: -1250px;
+    padding-right: 10px;
+    border: 1px solid black;
+    border-radius: 1px;
+    opacity: 0.7;
+
+}
+
+#welcome {
+    color: white;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 46px;
+    margin-right: -100px;
+    margin-top: -330px;
+}
+
+#divTwo {
+    position: absolute;
+    height: 566px;
+    width: 100%;
+    border: 1px solid black;
+    margin-left: -8px;
+    margin-top: -4px;
+    padding-right: 10px;
+    background-color: black;
+}
+
+#divThree {
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin-top: 550px;
+    margin-left: -8px;
+    background-color: black;
+    opacity: 0.8;
+
+}
+
+#footer {
+text-align: center;
+color: white;
+font-family: Verdana;
+
+}
+
+#ProjectOne {
+    border: 3px solid #c0c0c0;
+    height: 350px;
+    width: 500px;
+    float: left;
+    margin-top: 170px;
+    margin-left: 70px;
+}
+
+#ProjectTwo {
+    border: 3px solid #c0c0c0;
+    height: 350px;
+    width: 500px;
+    float: right;
+    margin-top: 170px;
+    margin-right: 60px;
+}
