@@ -1,0 +1,67 @@
+.header{
+    border: 1px solid gray;
+    width: 100%;
+    height: 70px;
+    background-color: gray;
+}
+
+.title {
+    font-family: Verdana;
+    color: white;
+    text-align: center;
+}
+
+.code {
+    background-color: Gainsboro;
+    color: #007700;
+}
+
+.container{
+    border: 2px solid gray;
+    height: 1200px;
+    width: 100%;
+    background-color: Gainsboro;
+}
+
+.innerLeft{
+    border: 2px solid gray;
+    height: 1155px;
+    width: 48%;
+    display: inline-block;
+    padding-right: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-left: 7px;
+    background-color: white;
+}
+
+.innerRight{
+    margin-top: -1169px;
+    margin-left: 620px;
+    border:2px solid gray;
+    height: 1154px;
+    width: 48%;
+    display: inline-block;
+    padding-right:10px;
+    padding-top: 10px;
+    background-color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+   font-family: Verdana;
+   font-size: 0.9em;
+}
+
+.footer {
+    border:2px solid gray;
+    width:100%;
+    height:50px;
+    background-color: gray;
+    font-family: Verdana;
+    color: white;
+    text-align: center;
+}
