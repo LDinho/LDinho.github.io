@@ -1,6 +1,7 @@
 /*version2*/
 /*body {
     margin: auto;
+    height: 100%;
 }*/
 
 .header{
@@ -88,6 +89,9 @@ p {
     font-family: Verdana;
     color: white;
     text-align: center;
+
+    /*version2*/
+    /*clear: both;*/
 }
 
 /*To learn more about box-sizing see below: */
