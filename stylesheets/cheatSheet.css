@@ -4,6 +4,10 @@
     height: 100%;
 }*/
 
+body {
+    background-color: #ede8e4;
+}
+
 .header{
     border: 2px solid gray;
     width: 100%;

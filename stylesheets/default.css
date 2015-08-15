@@ -7,10 +7,6 @@ html {
   box-sizing: inherit;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
 a:link {
     text-decoration: none;
     color: #ffffff;
@@ -103,7 +99,11 @@ body {
 
 h3 {
     color: white;
+    text-align: center;
 }
+
+    /*Blog Section Below*/
+/*===========================*/
 
 .divOne {
     background-color: black;
@@ -134,11 +134,31 @@ h3 {
     margin-right: 60px;
 }
 
+    /*Project Section Below*/
+/*===========================*/
+
 .divTwo {
     height: 600px;
     width: 100%;
     /*border: 2px solid black;*/
     margin-top: 50px;
+}
+
+.projectOne h3 {
+    text-align: center;
+    color: #3c4651;
+}
+
+.projectOne h3:hover {
+    /*color: #c0c0c0;*/
+}
+
+.HTML5Sheet {
+    height: 335px;
+}
+
+.HTML5Sheet:hover {
+    opacity: 0.8;
 }
 
 .projectOne {
@@ -150,6 +170,11 @@ h3 {
     margin-left: 70px;
 }
 
+.projectTwo h3 {
+    text-align: center;
+    color: #3c4651;
+}
+
 .projectTwo {
     border: 3px solid #c0c0c0;
     height: 400px;
@@ -158,6 +183,8 @@ h3 {
     margin-top: 93px;
     margin-right: 60px;
 }
+
+/*twitter, gitter and email icons code will go below here in footer*/
 
 .svg-paths-container {
     display: none;
