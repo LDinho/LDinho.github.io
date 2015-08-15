@@ -24,7 +24,7 @@ $(function() {
 		// scroll to each target
 		$(target).velocity('scroll', {
 			duration: 1000,
-			offset: 20,
+			offset: -110,
 			easing: 'ease-in-out'
 		});
 	});
