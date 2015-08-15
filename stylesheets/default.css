@@ -1,3 +1,15 @@
+/*To learn more about box-sizing see below: */
+/*http://www.paulirish.com/2012/box-sizing-border-box-ftw/*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 a:link {
     text-decoration: none;
@@ -98,8 +110,8 @@ h3 {
     height: 600px;
     width: 100%;
     margin-top: 220px;
-    border: 2px solid blue;
-    border-radius: 10px;
+    /*border: 2px solid blue;*/
+    border-radius: 5px;
     opacity: 0.5;
 
 }
@@ -147,6 +159,52 @@ h3 {
     margin-right: 60px;
 }
 
+.svg-paths-container {
+    display: none;
+}
+
+.social-links {
+    list-style: none;
+    margin-right: 50px;
+    margin-bottom: 35px;
+    margin-top: 25px;
+}
+
+.social-links li {
+    display: inline-block;
+}
+
+.iconFacebook {
+    fill: #fff;
+    width: 100px;
+    height: 50px;
+    padding-right: 12px;
+}
+
+.iconFacebook:hover {
+    fill: #3c4651;
+}
+
+.iconTwitter {
+    width: 121px;
+    height: 50px;
+    fill: #fff;
+}
+
+.iconTwitter:hover {
+    fill: #3c4651;
+}
+
+.iconInstagram {
+    width: 100px;
+    height: 50px;
+    fill: #fff;
+}
+
+.iconInstagram:hover {
+    fill: #3c4651;
+}
+
 .footer {
     position: absolute;
     /*height: 60px;*/
@@ -161,3 +219,10 @@ h3 {
     color: white;
     font-family: Verdana;
 }
+
+/*.social-links a {
+    display: block;
+    height: 46px;
+    padding: 10px;
+    width: 46px;
+}*/
